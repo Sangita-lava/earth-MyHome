@@ -1,99 +1,137 @@
 body {
-    background: radial-gradient(white 2%, green, rgba(0, 0, 255, 0.203));
-    background-size: cover;
-}
-
-.heading {
-    font-size: 50px;
-    background: conic-gradient(green, white, lightblue);
-    display: inline;
-    text-shadow: 5px 5px 3px black;
-    color: orange, orchid;
-
-
-}
-
-.white {
-    color: green;
-}
-
-.blue {
-    color: white;
-}
-
-#planet {
-    border-radius: 50%;
-}
-
-video {
-    border: 5px solid #0F828C;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 100%;
-}
-
-h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 5px;
-    color: white;
-
-}
-
-.container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: center;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: radial-gradient(white 2%, green, rgba(0, 0, 255, 0.203));
+      color: white;
+      text-align: center;
     }
 
-.card {
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    width: 150px;
-    text-align: center;
-    row-gap: 5px;
+    .heading {
+      font-size: 48px;
+      background: conic-gradient(green, white, lightblue);
+      -webkit-background-clip: text;
+      color: transparent;
+      text-shadow: 2px 2px 3px black;
+      margin: 30px 0;
+    }
 
-}
+    .white {
+      color: green;
+    }
 
-.card:hover {
-    transform: scale(1.05);
-}
+    .blue {
+      color: white;
+    }
 
-.emoji {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
+    .section-title {
+      margin: 40px 0 20px;
+    }
 
-h3 {
-    margin: 0;
-    font-size: 18px;
-    color: #065084;
-}
-#earth2{
-    display: flex;
-    justify-content: center;
-}
+    .section-title h2 {
+      color: white;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
 
-.earth-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-  padding: 20px;
-}
+    .section-title p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: 0 auto;
+      color: #f0f0f0;
+    }
 
-.earth-gif img {
-  max-width: 300px;
-  height: auto;
-  border-radius: 50px;
-}
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      margin: 30px auto;
+      max-width: 80%;
+    }
 
-.earth-text {
-  max-width: 400px;
-  color: white;
-  font-size: 18px;
-  line-height: 1.6;
-}
+    .video-container iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      border: 4px solid white;
+      border-radius: 12px;
+    }
+
+    .earth-flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      padding: 40px 20px;
+      text-align: left;
+    }
+
+    .earth-gif img {
+      max-width: 300px;
+      border-radius: 50%;
+    }
+
+    .earth-text {
+      max-width: 400px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: white;
+    }
+
+    .earth-text h3 {
+      margin-bottom: 10px;
+      color: green;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      color: #065084;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+      padding: 20px;
+      width: 180px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      background-color: #eefaf7;
+    }
+
+    .emoji {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    @media screen and (max-width: 600px) {
+      .heading {
+        font-size: 36px;
+      }
+
+      .earth-text, .card {
+        max-width: 90%;
+      }
+
+      .card-container {
+        gap: 15px;
+      }
+
+      .section-title h2 {
+        font-size: 24px;
+      }
+    }
