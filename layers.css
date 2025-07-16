@@ -1,0 +1,73 @@
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+
+#crust{
+        display: flex;
+        align-items: center;
+        justify-content: justify; 
+        flex-direction: column;
+        row-gap: 20px;
+
+}
+#crustchild{
+    color: white;
+    background-color: #78B9B5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    font-size:20px;
+}
+#mantle{
+    align-items: center;
+    justify-content: justify; 
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+#mantlechild{
+    color: white;
+    background-color: #0F828C;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#outercore{
+    align-items: center;
+    justify-content: justify; 
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+#outercorechild{
+    color: white;
+    background-color: #065084;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#innercore{ 
+    align-items: center;
+    justify-content: justify; 
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+#innercorechild{
+    color: white;
+    background-color: #320A6B;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
