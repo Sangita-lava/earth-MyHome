@@ -1,0 +1,70 @@
+#simple{
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    padding: opx;
+    font-size: 20px;
+    justify-content: center;
+    background-color: rgb(144, 179, 144);
+}
+#demo{
+     display: flex;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: space-between;
+    padding: opx;
+    font-size: 20px;
+    justify-content: center;
+    background-color: rgb(133, 90, 90);
+}
+#aa{
+     display: flex;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: space-between;
+    padding: opx;
+    font-size: 20px;
+    justify-content: center;
+    background-color:rgb(72, 125, 143)
+}
+#bb{
+     display: flex;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: space-between;
+    padding: opx;
+    font-size: 20px;
+    justify-content: center;
+    background-color: rgb(133, 90, 90);
+}
+#cc{
+     display: flex;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: space-between;
+    padding: opx;
+    font-size: 20px;
+    justify-content: center;
+    background-color: rgb(124, 122, 138);
+}
+#dd{
+     display: flex;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: space-between;
+    padding: opx;
+    font-size: 20px;
+    justify-content: center;
+    background-color: #228B22;
+}
+#ee{
+     display: flex;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: space-between;
+    padding: opx;
+    font-size: 20px;
+    justify-content: center;
+    background-color: #7a4b4f;
+}
